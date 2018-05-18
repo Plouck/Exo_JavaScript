@@ -1,0 +1,181 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+padding: 0; margin: 0;
+}
+html,body{
+display: block;
+height: 100%; width: 100%;
+}
+ul,li,a{
+margin: 0; padding: 0;
+list-style: none;
+text-decoration: none;
+}
+body{
+  background-image: linear-gradient(red,orange,yellow,green,#00E6DC,#000080,#ce28d8,white,white,white,white,white,white,white,white,black,white,white,white,white,white,white,red,orange,yellow,green,#00E6DC,#000080,#ce28d8);
+  background-attachment:fixed;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th{
+  border: 2px solid pink;
+}
+th{
+  font-weight: 450;
+  font-weight: bold;
+}
+h2{
+  background-image: radial-gradient(white,pink,black,yellow);
+  color:pink;
+}
+.main{
+}
+.main-header{
+  height: 100%;
+}
+.main-container{
+  height: auto;
+}
+.main-footer{
+  height: 100px;
+  display: table;
+}
+.button_01{
+  background-color: red
+}
+.list-header{
+  display: flex;
+}
+.Logo{
+  float: left;
+}
+.menu{
+  float: right;
+  width: 30%;
+}
+.list-header-li{
+  margin-right: 3%;
+}
+.contact-menu{
+  margin-top: 4%;
+}
+.Image-bas-de-page{
+  height: 50px;
+}
+.Logo-bas-de-page{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  -webkit-animation: Logo-bas-de-page 10s infinite;
+  -moz-animation: Logo-bas-de-page 10s infinite;
+  animation: Logo-bas-de-page 10s infinite;
+}
+@-webkit-keyframes Logo-bas-de-page {
+0% {
+  transform: translateX(0px);
+}
+
+40% {
+  transform: translateX(150px) rotate(18000000deg);
+}
+
+50% {
+  transform: translateX(150px) rotate(30deg);
+}
+
+90% {
+  transform: translateX(0px);
+}
+
+100% {
+  transform: translateX(0px);
+}
+
+}
+@-moz-keyframes Logo-bas-de-page {
+  0% {
+    transform: translateX(0px);
+  }
+
+  40% {
+    transform: translateX(150px) rotate(18000000deg);
+  }
+
+  50% {
+    transform: translateX(150px) rotate(30deg);
+  }
+
+  90% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(0px);
+}
+}
+@keyframes Logo-bas-de-page {
+  0% {
+    transform: translateX(0px);
+  }
+
+  40% {
+    transform: translateX(150px) rotate(18000000deg);
+  }
+
+  50% {
+    transform: translateX(150px) rotate(30deg);
+  }
+
+  90% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+
+  }
+.Logo-haut-de-page{
+    position: relative;
+    -webkit-animation: Logo-haut-de-page 10s infinite;
+    -moz-animation: Logo-haut-de-page 10s infinite;
+    animation: Logo-haut-de-page 10s infinite;
+}
+@-webkit-keyframes Logo-haut-de-page {
+0% {
+  transform: translateX(0px);
+}
+50% {
+  transform: translateX(150px);
+}
+100% {
+  transform: translateX(0px);
+}
+}
+@-moz-keyframes Logo-haut-de-page {
+0% {
+  transform: translateX(0px);
+}
+50% {
+  transform: translateX(150px);
+}
+100% {
+  transform: translateX(0px);
+}
+}
+@keyframes Logo-haut-de-page {
+0% {
+  transform: translateX(0px);
+}
+50% {
+  transform: translateX(150px);
+}
+100% {
+  transform: translateX(0px);
+}
+}
